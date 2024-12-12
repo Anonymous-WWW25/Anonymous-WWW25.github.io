@@ -3,7 +3,7 @@ var myChart = echarts.init(chartDom);
 var rawData; // 存储原始数据
 
 // 从服务器获取数据
-$.get('json/data_LineChart_sensor_pattern/3D-data-210317-241205_line_pattern_data.json', function (_rawData) {
+$.get('json/data_LineChart_sensor_pattern/3D-data-210317-241211_line_pattern_data.json', function (_rawData) {
     rawData = _rawData; // 保存原始数据
     updateChart(); // 初始图表渲染
 });
